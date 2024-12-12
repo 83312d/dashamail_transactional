@@ -13,8 +13,8 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.7.0'
 
-  spec.metadata['homepage_uri'] = 'https://github.com/creadone/dashamail'
-  spec.metadata['source_code_uri'] = 'https://github.com/creadone/dashamail'
+  spec.metadata['homepage_uri'] = 'https://github.com/83312d/dashamail_transactional'
+  spec.metadata['source_code_uri'] = 'https://github.com/83312d/dashamail_transactional'
 
   spec.add_dependency 'mime-types', '>= 3.4.0'
 
