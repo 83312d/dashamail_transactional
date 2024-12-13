@@ -92,6 +92,10 @@ module DashamailTransactional
       @container[:ignore_delivery_policy] = ignore_delivery_policy
     end
 
+    def campaign_id=(campaign_id)
+      @container[:campaign_id] = campaign_id
+    end
+
     def call
       @container
     end
