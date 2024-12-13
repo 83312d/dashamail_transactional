@@ -11,10 +11,11 @@
 
 ## Установка
 
-Укажите в проекте загрузку гема из гитхаба:
+
+Добавьте в Gemfile:
 
 ```sh
-gem 'dashamail', git: 'https://github.com/creadone/dashamail'
+gem 'dashamail_transactional'
 ```
 Затем установите с помощью Bundler
 
