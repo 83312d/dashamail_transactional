@@ -4,7 +4,7 @@ require_relative 'lib/dashamail/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'dashamail_transactional'
-  spec.version = DashaMail::VERSION
+  spec.version = DashamailTransactional::VERSION
   spec.authors = ['Sergey Fedorov']
   spec.email = ['creadone@gmail.com']
 

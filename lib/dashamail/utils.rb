@@ -3,7 +3,7 @@
 require 'base64'
 require 'mime-types'
 
-module DashaMail
+module DashamailTransactional
   class Utils
     def self.build_attachment(file_path)
       raise StandardError, 'File not exist' unless File.exist?(file_path)
