@@ -80,8 +80,12 @@ pp response.data
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/creadone/dashamail.
+Bug reports and pull requests are welcome on GitHub at https://github.com/83312d/dashamail_transactional.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Sponsored by
+
+[![Логотип проекта](images/21s.png)](https://21-school.ru/)
