@@ -5,8 +5,8 @@ require_relative 'lib/dashamail/version'
 Gem::Specification.new do |spec|
   spec.name = 'dashamail_transactional'
   spec.version = DashamailTransactional::VERSION
-  spec.authors = ['Sergey Fedorov']
-  spec.email = ['creadone@gmail.com']
+  spec.authors = ['Sergey Fedorov', 'Dave Maksimovskiy', 'Alexander Bondarenko']
+  spec.email = ['83312d@gmail.com', 'creadone@gmail.com']
 
   spec.summary = 'Ruby client DashaMail for transactional API'
   spec.description = 'Ruby client DashaMail for transactional API'
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files = Dir.chdir(__dir__) do
     `git ls-files -z`.split("\x0").reject do |f|
-      (f == __FILE__) || f.match(%r{\A(?:(?:bin|test|spec|features)/|\.(?:git|travis|circleci)|appveyor)})
+      (f == __FILE__) || f.match(%r{\A(?:(?:bin|test|spec|features|images)/|\.(?:git|travis|circleci)|appveyor)})
     end
   end
   spec.bindir = 'exe'

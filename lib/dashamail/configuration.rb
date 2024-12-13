@@ -92,8 +92,6 @@ module DashamailTransactional
 
     DEFAULT = {
       end_point: 'https://api.dashamail.ru',
-      no_track_opens: true,
-      no_track_clicks: true,
       response_format: 'JSON',
       ignore_delivery_policy: false
     }.freeze

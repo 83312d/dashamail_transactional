@@ -26,12 +26,14 @@ module DashamailTransactional
       }.merge!(options)
     end
 
-    def get(path, options = {})
-      execute(path, :get, options)
+    def reset_headers
+      @headers = base_headers
     end
 
-    def post(path, options = {})
-      execute(path, :post, options)
+    VERBS.each_key do |method|
+      define_method(method) do |path, options = {}|
+        execute(path, method, options)
+      end
     end
 
     private
