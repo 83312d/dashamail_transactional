@@ -4,7 +4,7 @@ require 'uri'
 require 'json'
 require 'net/http'
 
-module DashaMail
+module DashamailTransactional
   class HTTP
     VERBS = {
       get: Net::HTTP::Get,

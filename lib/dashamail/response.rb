@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module DashaMail
+module DashamailTransactional
   class Response
     def initialize(answer)
       @answer = answer
