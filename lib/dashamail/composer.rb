@@ -96,6 +96,22 @@ module DashamailTransactional
       @container[:campaign_id] = campaign_id
     end
 
+    def ip=(ip)
+      @container[:ip] = ip
+    end
+
+    def stat_domain=(stat_domain)
+      @container[:stat_domain] = stat_domain
+    end
+
+    def headers_unsub=(headers_unsub)
+      @container[:headers_unsub] = headers_unsub
+    end
+
+    def detailed_answer=(detailed_answer)
+      @container[:detailed_answer] = detailed_answer
+    end
+
     def call
       @container
     end

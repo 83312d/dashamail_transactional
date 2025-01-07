@@ -9,6 +9,9 @@ Style/StringLiteralsInInterpolation:
   Enabled: true
   EnforcedStyle: double_quotes
 
+Style/MissingRespondToMissing:
+  Enabled: false
+
 Metrics/CyclomaticComplexity:
   Enabled: false
 
